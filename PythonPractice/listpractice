@@ -1,0 +1,8 @@
+list = []
+
+list.append(input("enter word one"))
+list.append(input("enter word two"))
+list.append(input("enter word three"))
+
+list = " ".join(list)
+print(list)
